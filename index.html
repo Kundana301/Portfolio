@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of G. Kundana Chowdary - BTech CSE AIML Student showcasing projects and achievements">
+    <title>G. Kundana Chowdary | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <canvas id="particles-canvas"></canvas>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">GKC</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">Hello, I'm</div>
+                <h1 class="hero-name">
+                    <span class="name-line">G. Kundana</span>
+                    <span class="name-line">Chowdary</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text">BTech CSE AIML Student</span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Passionate about Artificial Intelligence, Machine Learning, and building innovative solutions
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="jelly-button primary">
+                        <span>View Projects</span>
+                    </a>
+                    <a href="#contact" class="jelly-button secondary">
+                        <span>Get in Touch</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-card floating">
+                    <div class="card-glow"></div>
+                    <div class="code-snippet">
+                        <div class="code-line"><span class="keyword">class</span> <span
+                                class="class-name">Developer</span>:</div>
+                        <div class="code-line indent"> <span class="keyword">def</span> <span
+                                class="function">__init__</span>(self):</div>
+                        <div class="code-line indent2"> self.name = <span class="string">"Kundana"</span></div>
+                        <div class="code-line indent2"> self.passion = <span class="string">"AI/ML"</span></div>
+                        <div class="code-line indent2"> self.status = <span class="string">"Learning"</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-text glass-card">
+                    <div class="card-glow"></div>
+                    <p class="intro-text">
+                        I'm a passionate <strong>BTech CSE AIML student</strong> in my 3rd year,
+                        dedicated to exploring the fascinating world of Artificial Intelligence and Machine Learning.
+                    </p>
+                    <p>
+                        I believe in learning by doing, and I've worked on several exciting projects that
+                        combine creativity with cutting-edge technology. From game development to computer vision
+                        and autonomous AI agents, I love pushing the boundaries of what's possible.
+                    </p>
+                </div>
+
+                <div class="education">
+                    <h3 class="subsection-title">Education Journey</h3>
+                    <div class="timeline">
+                        <div class="timeline-item glass-card" data-aos="fade-up">
+                            <div class="card-glow"></div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-year">Present</div>
+                                <h4>BTech in CSE (AI & ML)</h4>
+                                <p class="timeline-location">3rd Year Student</p>
+                                <p class="timeline-description">
+                                    Specializing in Artificial Intelligence and Machine Learning
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item glass-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="card-glow"></div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-year">12th Grade</div>
+                                <h4>Intermediate Education</h4>
+                                <p class="timeline-location">Sri Chaitanya</p>
+                                <p class="timeline-description">
+                                    Completed higher secondary education with focus on science
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item glass-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="card-glow"></div>
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-year">10th Grade</div>
+                                <h4>Secondary Education</h4>
+                                <p class="timeline-location">DAV School, Ukkunagaram</p>
+                                <p class="timeline-description">
+                                    Foundation years that sparked my interest in technology
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                Technical Skills
+            </h2>
+
+            <div class="skills-grid">
+                <!-- AI & ML -->
+                <div class="skill-category glass-card" data-aos="fade-up">
+                    <div class="card-glow"></div>
+                    <div class="category-icon">🧠</div>
+                    <h3 class="category-title">AI & Machine Learning</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Machine Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Deep Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Computer Vision</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">NLP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Reinforcement Learning</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programming Languages -->
+                <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-glow"></div>
+                    <div class="category-icon">💻</div>
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Libraries -->
+                <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-glow"></div>
+                    <div class="category-icon">📚</div>
+                    <h3 class="category-title">Frameworks & Libraries</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PyTorch</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Scikit-learn</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OpenCV</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Keras</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Technologies -->
+                <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-glow"></div>
+                    <div class="category-icon">🛠️</div>
+                    <h3 class="category-title">Tools & Technologies</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Jupyter Notebook</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Google Colab</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-glow"></div>
+                    <div class="category-icon">🌐</div>
+                    <h3 class="category-title">Web Development</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flask/FastAPI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">REST APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Science -->
+                <div class="skill-category glass-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-glow"></div>
+                    <div class="category-icon">📊</div>
+                    <h3 class="category-title">Data Science</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Pandas</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">NumPy</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Matplotlib</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Seaborn</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Data Analysis</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                Featured Projects
+            </h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card" data-aos="zoom-in">
+                    <div class="card-glow"></div>
+                    <div class="project-number">01</div>
+                    <div class="project-icon">🎮</div>
+                    <h3 class="project-title">Tic Tac Toe</h3>
+                    <p class="project-description">
+                        An interactive Tic Tac Toe game with an intelligent AI opponent.
+                        Features smooth animations and strategic gameplay.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Game Dev</span>
+                        <span class="tag">AI Logic</span>
+                        <span class="tag">Interactive</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <div class="stat-icon">⚡</div>
+                            <div class="stat-text">Smart AI</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-icon">🎨</div>
+                            <div class="stat-text">Clean UI</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-glow"></div>
+                    <div class="project-number">02</div>
+                    <div class="project-icon">👋</div>
+                    <h3 class="project-title">Hand Gesture Recognition</h3>
+                    <p class="project-description">
+                        Computer vision project that recognizes and interprets hand gestures in real-time
+                        using machine learning algorithms.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">ML</span>
+                        <span class="tag">Real-time</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <div class="stat-icon">📹</div>
+                            <div class="stat-text">Live Detection</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-icon">🧠</div>
+                            <div class="stat-text">ML Powered</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card featured" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-glow"></div>
+                    <div class="project-number">03</div>
+                    <div class="project-icon">🤖</div>
+                    <div class="featured-badge">Featured</div>
+                    <h3 class="project-title">Autonomous Learning AI Agent</h3>
+                    <p class="project-description">
+                        An advanced AI agent capable of autonomous learning and decision-making.
+                        Implements reinforcement learning and adaptive algorithms to continuously improve performance.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">AI Agent</span>
+                        <span class="tag">Reinforcement Learning</span>
+                        <span class="tag">Autonomous</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <div class="stat-icon">🎯</div>
+                            <div class="stat-text">Self-Learning</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-icon">⚙️</div>
+                            <div class="stat-text">Adaptive</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">04.</span>
+                Get In Touch
+            </h2>
+            <div class="contact-content">
+                <div class="contact-text glass-card">
+                    <div class="card-glow"></div>
+                    <h3>Let's Connect!</h3>
+                    <p>
+                        I'm always excited to collaborate on innovative projects, discuss AI/ML concepts,
+                        or simply connect with fellow tech enthusiasts. Feel free to reach out!
+                    </p>
+                </div>
+                <div class="contact-buttons">
+                    <a href="mailto:kundana.chowdary@example.com" class="jelly-button primary large">
+                        <span>📧 Send Email</span>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="jelly-button secondary large">
+                        <span>💼 LinkedIn</span>
+                    </a>
+                    <a href="https://github.com" target="_blank" class="jelly-button secondary large">
+                        <span>💻 GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Designed & Built by <strong>G. Kundana Chowdary</strong></p>
+            <p class="footer-tagline">Crafted with 💜 and lots of ☕</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
