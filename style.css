@@ -600,11 +600,7 @@ section {
     gap: var(--spacing-sm);
 }
 
-.title-number {
-    font-size: 1.5rem;
-    color: var(--accent-cyan);
-    font-weight: 600;
-}
+
 
 /* ===================================
    ABOUT SECTION
